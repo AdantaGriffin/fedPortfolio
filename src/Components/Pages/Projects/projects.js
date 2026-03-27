@@ -20,8 +20,8 @@ function Projects(){
                                     <li className={styles.stack}><mark>Sass</mark></li>
                                 </ul>
                                 <div className={styles.links}>
-                                    <a href="#">git</a>
-                                    <a href="https://dogmigo.netlify.app/" target="_blank">site</a>
+                                    <a>git</a>
+                                    <a href="https://dogmigo.netlify.app/" target="_blank" rel="noreferrer">site</a>
                                 </div>
                             </article>
                             <article className={styles.projectTwo}>
@@ -35,8 +35,8 @@ function Projects(){
                                     <li className={styles.stack}><mark>Sass</mark></li>
                                 </ul>
                                 <div className={styles.links}>
-                                    <a href="#">git</a>
-                                    <a href="https://flexfitme.netlify.app/" target="_blank">site</a>
+                                    <a >git</a>
+                                    <a href="https://flexfitme.netlify.app/" target="_blank" rel="noreferrer">site</a>
                                 </div>
                             </article>
                             <article className={styles.projectThree}>
@@ -50,8 +50,8 @@ function Projects(){
                                     <li className={styles.stack}><mark>React</mark></li>
                                 </ul>
                                 <div className={styles.links}>
-                                    <a href="#" target="_blank">git</a>
-                                    <a href="https://mobilenfit.netlify.app" target="_blank">site</a>
+                                    <a>git</a>
+                                    <a href="https://mobilenfit.netlify.app" target="_blank" rel="noreferrer">site</a>
                                 </div>
                             </article>
                             <article className={styles.projectFour}>
@@ -65,8 +65,8 @@ function Projects(){
                                     <li className={styles.stack}><mark>React</mark></li>
                                 </ul>
                                 <div className={styles.links}>
-                                    <a href="#">git</a>
-                                    <a href="https://theap3x.netlify.app" target="_blank">site</a>
+                                    <a>git</a>
+                                    <a href="https://theap3x.netlify.app" target="_blank" rel="noreferrer">site</a>
                                 </div>
                             </article>
                         </blockquote>

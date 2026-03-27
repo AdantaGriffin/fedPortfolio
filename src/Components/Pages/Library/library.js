@@ -1,5 +1,5 @@
 import styles from './library.module.scss';
-import React, {useEffect, useRef} from 'react';
+import React, {useRef} from 'react';
 
 
 function Library (){
@@ -24,16 +24,16 @@ function Library (){
                 <div className={styles.libraryContainer}>
                     <div ref={listRef} className={styles.listContainer}>
                         <ul className={styles.list}>
-                            <li className={styles.book}><img src="theStand.jpg"/></li>
-                            <li className={styles.book}><img src="lord.jpg"/></li>
-                            <li className={styles.book}><img src="power.jpg"/></li>
-                            <li className={styles.book}><img src="thinking.jpg"/></li>
-                            <li className={styles.book}><img src="it.jpg"/></li>
-                            <li className={styles.book}><img src="outsider.jpg"/></li>
-                            <li className={styles.book}><img src="shinning.jpg"/></li>
-                            <li className={styles.book}><img src="monster.jpg"/></li>
-                            <li className={styles.book}><img src="balch.jpg"/></li>
-                            <li className={styles.book}><img src="talk.jpg"/></li>
+                            <li className={styles.book}><img alt="" src="theStand.jpg"/></li>
+                            <li className={styles.book}><img alt="" src="lord.jpg"/></li>
+                            <li className={styles.book}><img alt="" src="power.jpg"/></li>
+                            <li className={styles.book}><img alt="" src="thinking.jpg"/></li>
+                            <li className={styles.book}><img alt="" src="it.jpg"/></li>
+                            <li className={styles.book}><img alt="" src="outsider.jpg"/></li>
+                            <li className={styles.book}><img alt="" src="shinning.jpg"/></li>
+                            <li className={styles.book}><img alt="" src="monster.jpg"/></li>
+                            <li className={styles.book}><img alt="" src="balch.jpg"/></li>
+                            <li className={styles.book}><img alt="" src="talk.jpg"/></li>
                         </ul>
                     </div>
                     <div className={styles.buttonContainer}>
