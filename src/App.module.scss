@@ -1,0 +1,23 @@
+@keyframes fadeIn {
+  from {
+    opacity: .5;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+section{
+    animation: fadeIn 2s ease;
+    font-family: "Fira Code";
+}
+html{
+    box-sizing: border-box;
+    height: 770px;
+    width: 100%;
+    background-color: beige;
+}
+::-webkit-scrollbar {
+    display: none;
+}

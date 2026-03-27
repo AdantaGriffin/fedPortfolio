@@ -1,0 +1,100 @@
+.projects{
+    //background-image: url('../../../../public/profile1.jpg');
+    background-size: cover;
+    background-size: 1000px 1000px;
+    background-repeat: no-repeat;
+    background-position: center -40px;
+    .projectsContainer{
+        background-color: rgba(3, 56, 130, 0.7);
+        padding: 45px 5px;
+        color: beige;
+        border-radius: 20px;
+        width: 90%;
+        min-height: 95%;
+        margin: 2% auto;
+        text-align: left;
+        .projectsHeader{
+            font-size: 2.1em;
+        }
+        .projectsBlock{
+            margin: auto;
+            min-height: 400px;
+            width: 90%;
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+        .imgDogmigo{
+        //background-image: url('../../../../public/dogmigo.png');
+        background-size: 100% 100%;
+        }
+        .imgFlexFit{
+        //background-image: url('../../../../public/flexfit.png');
+        background-size: 100% 100%;
+        }
+        .imgMobileFit{
+            //background-image: url('../../../../public/mobileFit.PNG');
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            width: 100px;
+            height: 100%;
+            border-radius: 20px;
+            margin: auto;
+        }
+            article{
+                box-shadow: 1px 1px 5px rgb(255, 255, 255);
+                background-color: rgba(255, 255, 255, 0.8);
+                margin-bottom: 10px;
+                width: 280px;
+                height: 390px;
+                display: grid;
+                grid-template-rows: 50% 10% 25% 10% 5%;
+                padding: 2px;
+                color: black;
+                .img{
+                    //background-color: lightgray;
+                }
+                h3{
+                    font-size: 1.3em;
+                }
+                .p{
+                    align-content: center;
+                    p{
+                        font: {
+                            size: 14px;
+                            weight: 500;
+                        }
+                    }
+                }
+                .stackList{
+                    display: flex;
+                    list-style: none;
+                    padding: 0;
+                    margin: 0;
+                    .stack{
+                        margin-left: 5px;
+                        align-content: center;
+                        font: {
+                            size: 10px;
+                            weight: 600;
+                        }
+                        mark{
+                            background-color: rgba(3, 56, 130, 0.7);
+                            color: beige;
+                            border-radius: 20px;
+                            padding: 0 4px;
+                        }
+                    }
+                }
+                .links{
+                    display: flex;
+                    justify-content: space-around;
+                    position: relative;
+                    bottom: 3px;
+                    a{
+                        color: black;
+                    }
+                }
+            }
+        }
+    }
+}

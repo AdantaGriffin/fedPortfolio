@@ -1,0 +1,28 @@
+.nav{
+    border-top: 1px solid black;
+    height: 9vh;
+    .navUL{
+        display: flex;
+        list-style: none;
+        justify-content: space-evenly;
+        padding: 0;
+        margin: 0;
+        height: 100%;
+        a{
+            width: 25%;
+            align-content: center;
+            color: black;
+        }
+        li{
+            text-align: center;
+            font: {
+                family: "Syne Mono";
+                size: clamp(20px, 4vw, 30px);
+            }
+        }
+    }
+}
+.isactive{
+    color: whitesmoke;
+    background-color: rgba(3, 56, 130, 0.5);
+}

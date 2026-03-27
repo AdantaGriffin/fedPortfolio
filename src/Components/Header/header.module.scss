@@ -1,0 +1,25 @@
+.pageHeader{
+    box-sizing: border-box;
+    height: 9vh;
+    width: 100%;
+    
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    h1{
+        margin: 0;
+        color: rgb(3, 56, 130,)
+    }
+
+    font: {
+        size: clamp(25px, 3vw, 48px);
+        family: "Syne Mono";
+    }
+    letter-spacing: .5em;
+}
