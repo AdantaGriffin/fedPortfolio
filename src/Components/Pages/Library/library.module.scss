@@ -1,4 +1,13 @@
+::-webkit-scrollbar {
+    display: none;
+}
 .library{
+    background-image: url('../../../../public/profile1.jpg');
+    background-size: cover;
+    background-size: 100vh;
+    background-repeat: no-repeat;
+    background-position: center -40px;
+    align-content: center;
     .libraryContainer{
         background-color: rgba(3, 56, 130, 0.5);
         color: beige;
@@ -30,7 +39,7 @@
                     box-shadow: 1px 1px 5px black;
                     width: 310px;
                     height: 450px;
-                    margin: 40px;
+                    margin: 80px;
                     scroll-snap-align: center;
                     &:hover {
                         transform: scale(1.1);
@@ -47,6 +56,14 @@
             justify-content: space-evenly;
             button{
                 width: 100px;
+                background: transparent;
+                border: none;
+                &:hover{
+                    cursor: pointer;
+                }
+            }
+            .back{
+                transform: rotate(180deg);
             }
         }
     }

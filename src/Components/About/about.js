@@ -29,6 +29,7 @@ function About(){
                                 </aside>
                                 <br/>
                                 <Link to="/library">library...</Link>
+                                <br/>
                                 <Link to="/places">places...</Link>
                             </div>
                             <br/>
