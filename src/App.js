@@ -6,6 +6,7 @@ import About from './Components/About/about';
 import Projects from './Components/Pages/Projects/projects';
 import Library from './Components/Pages/Library/library';
 import Places from './Components/Pages/Places/places';
+import Contact from './Components/Pages/Contact/contact';
 
 const AppRouter = createBrowserRouter(createRoutesFromElements(
   <Route path="/" element={<Root/>}>
@@ -14,6 +15,7 @@ const AppRouter = createBrowserRouter(createRoutesFromElements(
     <Route path="library" element={<Library/>}/>
     <Route path="places" element={<Places/>}/>
     <Route path="projects" element={<Projects/>}/>
+    <Route path="contact" element={<Contact/>}/>
     <Route path="all" element={""}/>
   </Route>
 ))

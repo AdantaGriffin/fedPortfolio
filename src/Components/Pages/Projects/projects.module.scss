@@ -24,21 +24,25 @@
             justify-content: space-evenly;
             flex-wrap: wrap;
         .imgDogmigo{
-        //background-image: url('../../../../public/dogmigo.png');
+        background-image: url('../../../../public/dogmigo.png');
         background-size: 100% 100%;
         }
         .imgFlexFit{
-        //background-image: url('../../../../public/flexfit.png');
+        background-image: url('../../../../public/flexfit.png');
         background-size: 100% 100%;
         }
         .imgMobileFit{
-            //background-image: url('../../../../public/mobileFit.PNG');
+            background-image: url('../../../../public/mobileFit.PNG');
             background-size: 100% 100%;
             background-repeat: no-repeat;
             width: 100px;
             height: 100%;
             border-radius: 20px;
             margin: auto;
+        }
+        .imgTheApex{
+            background-image: url('../../../../public/theApex.png');
+            background-size: 100% 100%;
         }
             article{
                 box-shadow: 1px 1px 5px rgb(255, 255, 255);

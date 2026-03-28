@@ -42,7 +42,9 @@ function Projects(){
                             <article className={styles.projectThree}>
                                 <div className={styles.imgMobileFit}></div>
                                 <h3>Mobile Fit</h3>
-                                <p>Description</p>
+                                <div className={styles.p}>
+                                    <p>Get in shape FAST with mobile fit. Fitness routines that last!</p>
+                                </div>
                                 <ul className={styles.stackList}>
                                     <li className={styles.stack}><mark>HTML5</mark></li>
                                     <li className={styles.stack}><mark>Sass</mark></li>
@@ -55,9 +57,11 @@ function Projects(){
                                 </div>
                             </article>
                             <article className={styles.projectFour}>
-                                <div className={styles.img}>image</div>
+                                <div className={styles.imgTheApex}>image</div>
                                 <h3>The Apex</h3>
-                                <p>Description</p>
+                                <div className={styles.p}>
+                                    <p>Description</p>
+                                </div>
                                 <ul className={styles.stackList}>
                                     <li className={styles.stack}><mark>HTML5</mark></li>
                                     <li className={styles.stack}><mark>Sass</mark></li>
