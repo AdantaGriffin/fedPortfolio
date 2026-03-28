@@ -37,8 +37,8 @@ function Library (){
                         </ul>
                     </div>
                     <div className={styles.buttonContainer}>
-                        <button className={styles.back} onClick={scrollLeft}><img src="./next.png" height="100%" width="100%"/></button>
-                        <button className={styles.next} onClick={scrollRight}><img src="./next.png" height="100%" width="100%"/></button>
+                        <button className={styles.back} onClick={scrollLeft}><img alt="" src="./next.png" height="100%" width="100%"/></button>
+                        <button className={styles.next} onClick={scrollRight}><img alt="" src="./next.png" height="100%" width="100%"/></button>
                     </div>
                 </div>
             </section>
