@@ -36,7 +36,7 @@ function Projects(){
                                 </ul>
                                 <div className={styles.links}>
                                     {/*<a>git</a>*/}
-                                    <a href="https://flexfitme.netlify.app/" target="_blank" rel="noreferrer">site</a>
+                                    <a href="https://fitflexme.netlify.app/" target="_blank" rel="noreferrer">site</a>
                                 </div>
                             </article>
                             <article className={styles.projectThree}>
