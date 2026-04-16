@@ -4,6 +4,7 @@
     background-size: 100vh;
     background-repeat: no-repeat;
     background-position: center -40px;
+    font-family: "Fira Code";
     .projectsContainer{
         background-color: rgba(3, 56, 130, 0.7);
         padding: 45px 5px;
@@ -46,6 +47,10 @@
         }
         .imgRiddler{
             background-image: url('../../../../public/riddlerBox.png');
+            background-size: 100% 100%;
+        }
+        .imgPokemon{
+            background-image: url('../../../../public/pokemon.jpeg');
             background-size: 100% 100%;
         }
             article{

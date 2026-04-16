@@ -6,29 +6,36 @@ function Contact(){
         <>
             <section className={styles.contact}>
                 <div className={styles.contactContainer}>
-                    <form className={styles.emailForm}>
+                    <form 
+                    className={styles.emailForm}
+                    action="https://formspree.io/f/mlgajaeo"
+                    method="POST"
+                    >
                         <h2>Get In Touch</h2>
                         <div>
-                            <label for="name">Name:</label>
+                            <label for="name">Name:
                             <input id="name" type="text" placeholder="Your Name" required/>
+                            </label>
                         </div>
                         <div>
-                            <label for="phone">Phone:</label>
-                            <input id="phone" type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="(xxx) xxx-xxxx" required/>
+                            <label for="phone">Phone:
+                            <input id="phone" type="tel" placeholder="(xxx) xxx-xxxx" required/>
+                            </label>
                         </div>
                         <div>
-                            <label for="email">Email:</label>
-                            <input id="email" type="email" pattern="+@email\.com" placeholder="youremail@email.com" required/>
+                            <label for="email">Email:
+                                <input id="email" type="email" pattern="+@email\.com" placeholder="youremail@email.com" required/>
+                            </label>
+                        </div>
+                        <div>
+                            <label for="message">Message:
+                                <textarea name="message" placeholder="Say Hello!"></textarea>
+                            </label>
                         </div>
 
                         <button>submit</button>
                     </form>
 
-                    <form>
-                        <p>Adanta Griffin</p>
-                        <p>adantagriffin90@gmail.com</p>
-                        <p>718.820.2506</p>
-                    </form>
                 </div>
             </section>
         </>
