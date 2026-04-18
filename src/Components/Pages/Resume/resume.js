@@ -54,7 +54,7 @@ function Resume(){
 
                 <section className={styles.resumeEducation}></section>
 
-                <section classNAme={styles.resumeCertifications}></section>
+                <section className={styles.resumeCertifications}></section>
             </section>
         </>
     )

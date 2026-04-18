@@ -11,7 +11,7 @@ function Contact(){
                     action="https://formspree.io/f/mlgajaeo"
                     method="POST"
                     >
-                        <div classNAme={styles.formSection}>
+                        <div className={styles.formSection}>
                             <h2>Get In Touch</h2>
                         </div>
 
