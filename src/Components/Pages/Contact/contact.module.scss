@@ -1,23 +1,54 @@
 .contact{
     height: 80vh;
-        background-color: rgba(3, 56, 130, 0.7);
-        padding: 5px;
-        color: beige;
-        border-radius: 20px;
-        width: 90%;
-        margin: 2% auto;
-        text-align: left;
-        align-content: center;
-        font-family: "Fira Code";
+    background-color: rgba(3, 56, 130, 0.7);
+    padding: 5px;
+    color: beige;
+    border-radius: 20px;
+    width: 90%;
+    margin: 2% auto;
+    text-align: left;
+    align-content: center;
+    font-family: "Fira Code";
+    display: grid;
     .contactContainer{
-        border: 5px solid beige;
-        height: 75%;
-        width: 80%;
+        height: 450px;
+        border: 3px solid white;
+        border-radius: 30px;
+        padding: 0 5px;
         align-content: center;
         margin: auto;
-        .emailForm{
+        form{
+            border-radius: 20px;
+            padding: 20px;
             display: grid;
-            grid-template-rows: repeat(4, 1fr);
+            grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+            height: 90%;
+            text-align: center;
+            h2{
+                font-size: 2em;
+            }
+            input{
+                width: 350px;
+                height: 40px;
+                background: rbga(120,120,120,.5);
+                padding: 0 5px;
+            }   
+            textarea{
+                width: 350px;
+                height: 70px;
+                padding: 0 5px;
+                align-content: center;
+            }
+            button{
+                width: 380px;
+                height: 50px;
+                border: 2px solid  rgb(3, 56, 130);
+                color:   rgb(3, 56, 130);
+                font-size: 1.1em;
+                &:hover {
+                    cursor: pointer
+                }
+            }
         }
     }
 }
