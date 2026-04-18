@@ -8,7 +8,7 @@ function Resume(){
                 <section className={styles.resumeHeader}>
                     <p>Adanta Griffin | Brooklyn, NY</p>
                     <p>adantagriffin90@gmail.com | 718.820.2506</p>
-                    <a href='#'>github.com/AdantaGriffin</a> | <a href='#'>adantag.netlify.app</a> | <a href='#'>linkedin.com/in/adanta-griffin</a>
+                    <a href='/'>github.com/AdantaGriffin</a> | <a href='/'>adantag.netlify.app</a> | <a href='/'>linkedin.com/in/adanta-griffin</a>
                 </section>
 
                 <section className={styles.resumeSummary}>
