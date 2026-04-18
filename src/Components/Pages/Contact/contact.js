@@ -1,30 +1,40 @@
 import styles from './contact.module.scss';
-import React from 'react';
+import React, {useRef} from 'react';
 
 function Contact(){
+    const formRef = useRef(null);
+
+    const handleSubmit = (e) => {
+
+        setTimeout(() => {
+            formRef.current.reset();
+        }, 200);
+    };
     return(
         <>
             <section className={styles.contact}>
                 <div className={styles.contactContainer}>
                     <form 
+                    ref={formRef}
                     className={styles.emailForm}
                     action="https://formspree.io/f/mlgajaeo"
                     method="POST"
+                    onSubmit={handleSubmit}
                     >
                         <div className={styles.formSection}>
                             <h2>Get In Touch</h2>
                         </div>
 
                         <div id={styles.name}className={styles.formSection}>
-                            <input id="name" type="text" placeholder="Name" required/>
+                            <input name="name" type="text" placeholder="Name" required/>
                         </div>
 
                         <div id={styles.phone} className={styles.formSection}>
-                            <input id="phone" type="tel" placeholder="Phone" required/>
+                            <input name="phone" type="tel" placeholder="Phone" required/>
                         </div>
 
                         <div id={styles.email} className={styles.formSection}>
-                                <input id="email" type="email" pattern="+@email\.com" placeholder="Email" required/>
+                                <input name="email" type="email" placeholder="Email" required/>
                         </div>
 
                         <div id={styles.message} className={styles.formSection}>
@@ -41,4 +51,4 @@ function Contact(){
     )
 };
 
-export default Contact
+export default Contact;
