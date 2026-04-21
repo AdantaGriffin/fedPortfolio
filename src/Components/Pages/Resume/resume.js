@@ -1,4 +1,4 @@
-import styles from './resume.module.scss';
+//import styles from './resume.module.scss';
 import React from 'react';
 
 function Resume(){
