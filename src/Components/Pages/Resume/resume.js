@@ -4,7 +4,7 @@ import React from 'react';
 function Resume(){
     return(
         <>
-            <section className={styles.resume}>
+            {/*<section className={styles.resume}>
                 <section className={styles.resumeHeader}>
                     <p>Adanta Griffin | Brooklyn, NY</p>
                     <p>adantagriffin90@gmail.com | 718.820.2506</p>
@@ -55,7 +55,7 @@ function Resume(){
                 <section className={styles.resumeEducation}></section>
 
                 <section className={styles.resumeCertifications}></section>
-            </section>
+            </section>*/}
         </>
     )
 };
