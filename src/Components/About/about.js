@@ -24,7 +24,7 @@ function About(){
                                     When I’m not coding, I enjoy staying active, reading, and connecting with friends.
                                 </aside>
                                 <br/>
-                                <Link to="/library">library...</Link>
+                                <span>→ </span><Link to="/library">library...</Link>
                                 <br/>
                             </div>
                             <br/>
@@ -33,7 +33,7 @@ function About(){
                                     Im currently looking for a rolewhere I can grow as a developer and contribute to a team.
                                 </aside>
                                 <br/>
-                                <Link to="/resume">resume...</Link>
+                                <span>→ </span><Link to="/resume">resume...</Link>
                             </div>
                         </blockquote>
                     </article>

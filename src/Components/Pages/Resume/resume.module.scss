@@ -3,5 +3,33 @@
     padding: 5px;
 }
 .resumeHeader{
-    border-bottom: 1px solid lightgrey;
+    //border-bottom: 1px solid lightgrey;
+    height: 200px;
+    p{
+        align-content: center;
+        height: 25px;
+        position: relative;
+    }
+    a{
+        color: black;
+        text-decoration: none;
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+}
+
+.resumeCertifications{
+    height: 300px;
+
+    .certContainer{
+        border: 1px solid black;
+        height: 100%;
+        align-content: center;
+        padding: 0 10px;
+    }
+    .certImage{
+        border: 1px solid red;
+        margin-right: 10px;
+    }
 }

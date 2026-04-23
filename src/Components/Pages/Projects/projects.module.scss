@@ -18,11 +18,13 @@
             font-size: 2.1em;
         }
         .projectsBlock{
-            margin: auto;
+            padding: 0;
+            margin: 0;
             min-height: 400px;
-            width: 90%;
+            width: 100%;
             display: flex;
             justify-content: space-evenly;
+            flex-direction: column-reverse;
             flex-wrap: wrap;
         .imgDogmigo{
         background-image: url('../../../../public/dogmigo.png');
@@ -53,14 +55,18 @@
             background-image: url('../../../../public/pokemon.jpeg');
             background-size: 100% 100%;
         }
+        .imgSpeed{
+            background-image: url('../../../../public/speedScript.png');
+            background-size: 100% 100%;
+        }
             article{
                 box-shadow: 1px 1px 5px rgb(255, 255, 255);
                 background-color: rgba(255, 255, 255, 0.8);
-                margin-bottom: 10px;
+                margin: 10px auto;
                 width: 280px;
                 height: 390px;
                 display: grid;
-                grid-template-rows: 50% 10% 25% 10% 5%;
+                grid-template-rows: 60% 10% 15% 10% 5%;
                 padding: 2px;
                 color: black;
                 .img{

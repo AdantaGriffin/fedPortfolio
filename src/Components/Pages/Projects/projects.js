@@ -108,6 +108,24 @@ function Projects(){
                                     <a href="https://pokemondem.netlify.app/" target="_blank" rel="noreferrer">site</a>
                                 </div>
                             </article>
+                            <article className={styles.projectSeven}>
+                                <div className={styles.imgSpeed}></div>
+                                <h3>Read 4 Speed</h3>
+                                <div className={styles.p}>
+                                    <p>Short stories at your pace</p>
+                                </div>
+                                <ul className={styles.stackList}>
+                                    <li className={styles.stack}><mark>HTML5</mark></li>
+                                    <li className={styles.stack}><mark>Sass</mark></li>
+                                    <li className={styles.stack}><mark>JavaScript</mark></li>
+                                    <li className={styles.stack}><mark>REACT</mark></li>
+                                    <li className={styles.stack}><mark>TypeScript</mark></li>
+                                </ul>
+                                <div className={styles.links}>
+                                    {/*<a>git</a>*/}
+                                    <a href="https://flashscript.netlify.app/" target="_blank" rel="noreferrer">site</a>
+                                </div>
+                            </article>
                         </blockquote>
                         {/*<a>view more</a>*/}
                 </div>
